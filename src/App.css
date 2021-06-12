@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #2345c7;
+    background-image: radial-gradient(#296bbc 1.05px, #2345c7 1.05px);
+    background-size: 21px 21px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+
+body .App {
+    
+    width: 100%;
+    min-width: 900px;
+    height: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.money{
+    font-size: 1rem;
+    color: rgb(0, 255, 85);
+}
+
+body .App .wrap-box{
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}

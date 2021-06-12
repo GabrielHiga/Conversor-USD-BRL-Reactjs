@@ -1,0 +1,64 @@
+
+
+.conversor {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 2px 3px 44px 1px rgba(0, 0, 0, 0.096); 
+    box-shadow: 2px 3px 44px 1px rgba(0, 0, 0, 0.11);
+}
+
+.conversor .button {
+    font-size: 1rem;
+    padding: 20px 50px;
+    background: #296bbc;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.conversor .wrap-dolar{
+    max-width: 250px;
+}
+
+.conversor .wrap-dolar h2{
+    display: flex;
+}
+
+.conversor .wrap-dolar .icone-usa{
+    margin-right: 10px;
+}
+
+.conversor .wrap-dolar .inputNumber{
+    max-width: 250px;
+    border:none;
+    height: 30px;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.conversor .wrap-real {
+    max-width: 250px;
+    width: 250px;
+}
+
+.conversor .wrap-real h2 {
+    display: flex;
+}
+
+.conversor .wrap-real .resultado-real{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.conversor .wrap-real .icone-brasil{
+    margin-right: 10px;
+}
